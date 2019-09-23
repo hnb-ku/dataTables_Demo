@@ -30,8 +30,8 @@ export default {
         translations.composer = {};
       }
 
-      translations.dataTables_button = "foobar";
-      translations.composer.dataTables_add_table_prompt = "lol";
+      translations.dataTables_button = "Add Data Table";
+      translations.composer.dataTables_add_table_prompt = "Insert Table";
 
       // Adds dataTable button to the composer
       api.onToolbarCreate(function(toolbar) {
