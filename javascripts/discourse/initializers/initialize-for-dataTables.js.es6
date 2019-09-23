@@ -2,7 +2,7 @@ import { withPluginApi } from "discourse/lib/plugin-api";
 import loadScript from "discourse/lib/load-script";
 
 export default {
-  name: "my-initializer",
+  name: "initialize-for-dataTables",
   initialize() {
     withPluginApi("0.8", api => {
       // Decorates posts with dataTables
